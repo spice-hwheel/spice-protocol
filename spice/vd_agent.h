@@ -171,6 +171,8 @@ typedef struct SPICE_ATTR_PACKED VDAgentDisplayConfig {
 #define VD_AGENT_RBUTTON_MASK (1 << 3)
 #define VD_AGENT_UBUTTON_MASK (1 << 4)
 #define VD_AGENT_DBUTTON_MASK (1 << 5)
+#define VD_AGENT_WLBUTTON_MASK (1 << 6)
+#define VD_AGENT_WRBUTTON_MASK (1 << 7)
 
 typedef struct SPICE_ATTR_PACKED VDAgentMouseState {
     uint32_t x;
